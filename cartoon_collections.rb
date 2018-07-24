@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(elements)
-  elements = .collect do |i|
+  elements = elements.collect do |i|
     i.upcase
     i << "!"
   end
