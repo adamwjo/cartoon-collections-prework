@@ -29,6 +29,7 @@ def find_the_cheese(array)
     if cheese_types.include?("#{i}") == true
       array.find do |cheese|
         cheese == cheese
+      end
     end
   end
 end
